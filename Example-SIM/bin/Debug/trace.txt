@@ -1,0 +1,596 @@
+==============================================================
+======================= Запущена модель ======================
+==============================================================
+	
+Параметры модели:	
+Математическое ожидание: 10	
+СКО: 2	
+Значение точки восстановления: 20	
+Значение объёма восстановления запаса: 80	
+Значение приведённых дней: 6 7 8 9 10	
+Вероятности пополнения запаса: 0,05 0,25 0,3 0,22 0,18	
+Стоимость подачи заявки на пополнение: 10	
+Стоимость потерь возможных: 1	
+Стоимость хранения одной единицы товара: 1	
+Время прогона модели: 100	
+	
+Начальное состояние модели:	
+T = 0 VT = 100 Q_LOST = 0 VPRT = 0 ZNP = False Q_POP = 0	
+	
+==============================================================
+	
++ 0	K1		
+0,000		 K1			VSP = 13	
++ 1	K1		
+	
+T = 1 VT = 87 Q_LOST = 0 VPRT = 87 ZNP = False Q_POP = 0	
+	
+1,000		 K1			VSP = 10	
++ 2	K1		
+	
+T = 2 VT = 77 Q_LOST = 0 VPRT = 164 ZNP = False Q_POP = 0	
+	
+2,000		 K1			VSP = 10	
++ 3	K1		
+	
+T = 3 VT = 67 Q_LOST = 0 VPRT = 231 ZNP = False Q_POP = 0	
+	
+3,000		 K1			VSP = 10	
++ 4	K1		
+	
+T = 4 VT = 57 Q_LOST = 0 VPRT = 288 ZNP = False Q_POP = 0	
+	
+4,000		 K1			VSP = 6	
++ 5	K1		
+	
+T = 5 VT = 51 Q_LOST = 0 VPRT = 339 ZNP = False Q_POP = 0	
+	
+5,000		 K1			VSP = 9	
++ 6	K1		
+	
+T = 6 VT = 42 Q_LOST = 0 VPRT = 381 ZNP = False Q_POP = 0	
+	
+6,000		 K1			VSP = 11	
++ 7	K1		
+	
+T = 7 VT = 31 Q_LOST = 0 VPRT = 412 ZNP = False Q_POP = 0	
+	
+7,000		 K1			VSP = 11	
++ 8	K1		
+	
+T = 8 VT = 20 Q_LOST = 0 VPRT = 432 ZNP = False Q_POP = 0	
+	
+8,000		 K1			VSP = 11	
+Пополнение через 10 дней	
++ 18	K2		
+	
+T = 9 VT = 9 Q_LOST = 0 VPRT = 441 ZNP = True Q_POP = 1	
+	
++ 9	K1		
+	
+T = 9 VT = 9 Q_LOST = 0 VPRT = 441 ZNP = True Q_POP = 1	
+	
+9,000		 K1			VSP = 8	
++ 10	K1		
+	
+T = 10 VT = 1 Q_LOST = 0 VPRT = 442 ZNP = True Q_POP = 1	
+	
+10,000		 K1			VSP = 9	
++ 11	K1		
+	
+T = 11 VT = 0 Q_LOST = 8 VPRT = 442 ZNP = True Q_POP = 1	
+	
+11,000		 K1			VSP = 6	
++ 12	K1		
+	
+T = 12 VT = 0 Q_LOST = 14 VPRT = 442 ZNP = True Q_POP = 1	
+	
+12,000		 K1			VSP = 12	
++ 13	K1		
+	
+T = 13 VT = 0 Q_LOST = 26 VPRT = 442 ZNP = True Q_POP = 1	
+	
+13,000		 K1			VSP = 10	
++ 14	K1		
+	
+T = 14 VT = 0 Q_LOST = 36 VPRT = 442 ZNP = True Q_POP = 1	
+	
+14,000		 K1			VSP = 8	
++ 15	K1		
+	
+T = 15 VT = 0 Q_LOST = 44 VPRT = 442 ZNP = True Q_POP = 1	
+	
+15,000		 K1			VSP = 13	
++ 16	K1		
+	
+T = 16 VT = 0 Q_LOST = 57 VPRT = 442 ZNP = True Q_POP = 1	
+	
+16,000		 K1			VSP = 11	
++ 17	K1		
+	
+T = 17 VT = 0 Q_LOST = 68 VPRT = 442 ZNP = True Q_POP = 1	
+	
+17,000		 K1			VSP = 11	
++ 18	K1		
+	
+T = 18 VT = 0 Q_LOST = 79 VPRT = 442 ZNP = True Q_POP = 1	
+	
+18,000		 K2			
+	
+T = 18 VT = 80 Q_LOST = 79 VPRT = 442 ZNP = False Q_POP = 1	
+	
+18,000		 K1			VSP = 11	
++ 19	K1		
+	
+T = 19 VT = 69 Q_LOST = 79 VPRT = 511 ZNP = False Q_POP = 1	
+	
+19,000		 K1			VSP = 9	
++ 20	K1		
+	
+T = 20 VT = 60 Q_LOST = 79 VPRT = 571 ZNP = False Q_POP = 1	
+	
+20,000		 K1			VSP = 13	
++ 21	K1		
+	
+T = 21 VT = 47 Q_LOST = 79 VPRT = 618 ZNP = False Q_POP = 1	
+	
+21,000		 K1			VSP = 12	
++ 22	K1		
+	
+T = 22 VT = 35 Q_LOST = 79 VPRT = 653 ZNP = False Q_POP = 1	
+	
+22,000		 K1			VSP = 9	
++ 23	K1		
+	
+T = 23 VT = 26 Q_LOST = 79 VPRT = 679 ZNP = False Q_POP = 1	
+	
+23,000		 K1			VSP = 9	
+Пополнение через 6 дней	
++ 29	K2		
+	
+T = 24 VT = 17 Q_LOST = 79 VPRT = 696 ZNP = True Q_POP = 2	
+	
++ 24	K1		
+	
+T = 24 VT = 17 Q_LOST = 79 VPRT = 696 ZNP = True Q_POP = 2	
+	
+24,000		 K1			VSP = 9	
++ 25	K1		
+	
+T = 25 VT = 8 Q_LOST = 79 VPRT = 704 ZNP = True Q_POP = 2	
+	
+25,000		 K1			VSP = 10	
++ 26	K1		
+	
+T = 26 VT = 0 Q_LOST = 81 VPRT = 704 ZNP = True Q_POP = 2	
+	
+26,000		 K1			VSP = 9	
++ 27	K1		
+	
+T = 27 VT = 0 Q_LOST = 90 VPRT = 704 ZNP = True Q_POP = 2	
+	
+27,000		 K1			VSP = 5	
++ 28	K1		
+	
+T = 28 VT = 0 Q_LOST = 95 VPRT = 704 ZNP = True Q_POP = 2	
+	
+28,000		 K1			VSP = 10	
++ 29	K1		
+	
+T = 29 VT = 0 Q_LOST = 105 VPRT = 704 ZNP = True Q_POP = 2	
+	
+29,000		 K2			
+	
+T = 29 VT = 80 Q_LOST = 105 VPRT = 704 ZNP = False Q_POP = 2	
+	
+29,000		 K1			VSP = 8	
++ 30	K1		
+	
+T = 30 VT = 72 Q_LOST = 105 VPRT = 776 ZNP = False Q_POP = 2	
+	
+30,000		 K1			VSP = 10	
++ 31	K1		
+	
+T = 31 VT = 62 Q_LOST = 105 VPRT = 838 ZNP = False Q_POP = 2	
+	
+31,000		 K1			VSP = 11	
++ 32	K1		
+	
+T = 32 VT = 51 Q_LOST = 105 VPRT = 889 ZNP = False Q_POP = 2	
+	
+32,000		 K1			VSP = 9	
++ 33	K1		
+	
+T = 33 VT = 42 Q_LOST = 105 VPRT = 931 ZNP = False Q_POP = 2	
+	
+33,000		 K1			VSP = 5	
++ 34	K1		
+	
+T = 34 VT = 37 Q_LOST = 105 VPRT = 968 ZNP = False Q_POP = 2	
+	
+34,000		 K1			VSP = 8	
++ 35	K1		
+	
+T = 35 VT = 29 Q_LOST = 105 VPRT = 997 ZNP = False Q_POP = 2	
+	
+35,000		 K1			VSP = 13	
+Пополнение через 10 дней	
++ 45	K2		
+	
+T = 36 VT = 16 Q_LOST = 105 VPRT = 1013 ZNP = True Q_POP = 3	
+	
++ 36	K1		
+	
+T = 36 VT = 16 Q_LOST = 105 VPRT = 1013 ZNP = True Q_POP = 3	
+	
+36,000		 K1			VSP = 11	
++ 37	K1		
+	
+T = 37 VT = 5 Q_LOST = 105 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+37,000		 K1			VSP = 9	
++ 38	K1		
+	
+T = 38 VT = 0 Q_LOST = 109 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+38,000		 K1			VSP = 8	
++ 39	K1		
+	
+T = 39 VT = 0 Q_LOST = 117 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+39,000		 K1			VSP = 10	
++ 40	K1		
+	
+T = 40 VT = 0 Q_LOST = 127 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+40,000		 K1			VSP = 11	
++ 41	K1		
+	
+T = 41 VT = 0 Q_LOST = 138 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+41,000		 K1			VSP = 11	
++ 42	K1		
+	
+T = 42 VT = 0 Q_LOST = 149 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+42,000		 K1			VSP = 7	
++ 43	K1		
+	
+T = 43 VT = 0 Q_LOST = 156 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+43,000		 K1			VSP = 11	
++ 44	K1		
+	
+T = 44 VT = 0 Q_LOST = 167 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+44,000		 K1			VSP = 9	
++ 45	K1		
+	
+T = 45 VT = 0 Q_LOST = 176 VPRT = 1018 ZNP = True Q_POP = 3	
+	
+45,000		 K2			
+	
+T = 45 VT = 80 Q_LOST = 176 VPRT = 1018 ZNP = False Q_POP = 3	
+	
+45,000		 K1			VSP = 9	
++ 46	K1		
+	
+T = 46 VT = 71 Q_LOST = 176 VPRT = 1089 ZNP = False Q_POP = 3	
+	
+46,000		 K1			VSP = 8	
++ 47	K1		
+	
+T = 47 VT = 63 Q_LOST = 176 VPRT = 1152 ZNP = False Q_POP = 3	
+	
+47,000		 K1			VSP = 11	
++ 48	K1		
+	
+T = 48 VT = 52 Q_LOST = 176 VPRT = 1204 ZNP = False Q_POP = 3	
+	
+48,000		 K1			VSP = 9	
++ 49	K1		
+	
+T = 49 VT = 43 Q_LOST = 176 VPRT = 1247 ZNP = False Q_POP = 3	
+	
+49,000		 K1			VSP = 10	
++ 50	K1		
+	
+T = 50 VT = 33 Q_LOST = 176 VPRT = 1280 ZNP = False Q_POP = 3	
+	
+50,000		 K1			VSP = 10	
++ 51	K1		
+	
+T = 51 VT = 23 Q_LOST = 176 VPRT = 1303 ZNP = False Q_POP = 3	
+	
+51,000		 K1			VSP = 10	
+Пополнение через 9 дней	
++ 60	K2		
+	
+T = 52 VT = 13 Q_LOST = 176 VPRT = 1316 ZNP = True Q_POP = 4	
+	
++ 52	K1		
+	
+T = 52 VT = 13 Q_LOST = 176 VPRT = 1316 ZNP = True Q_POP = 4	
+	
+52,000		 K1			VSP = 8	
++ 53	K1		
+	
+T = 53 VT = 5 Q_LOST = 176 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+53,000		 K1			VSP = 9	
++ 54	K1		
+	
+T = 54 VT = 0 Q_LOST = 180 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+54,000		 K1			VSP = 10	
++ 55	K1		
+	
+T = 55 VT = 0 Q_LOST = 190 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+55,000		 K1			VSP = 4	
++ 56	K1		
+	
+T = 56 VT = 0 Q_LOST = 194 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+56,000		 K1			VSP = 11	
++ 57	K1		
+	
+T = 57 VT = 0 Q_LOST = 205 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+57,000		 K1			VSP = 8	
++ 58	K1		
+	
+T = 58 VT = 0 Q_LOST = 213 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+58,000		 K1			VSP = 10	
++ 59	K1		
+	
+T = 59 VT = 0 Q_LOST = 223 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+59,000		 K1			VSP = 11	
++ 60	K1		
+	
+T = 60 VT = 0 Q_LOST = 234 VPRT = 1321 ZNP = True Q_POP = 4	
+	
+60,000		 K2			
+	
+T = 60 VT = 80 Q_LOST = 234 VPRT = 1321 ZNP = False Q_POP = 4	
+	
+60,000		 K1			VSP = 12	
++ 61	K1		
+	
+T = 61 VT = 68 Q_LOST = 234 VPRT = 1389 ZNP = False Q_POP = 4	
+	
+61,000		 K1			VSP = 8	
++ 62	K1		
+	
+T = 62 VT = 60 Q_LOST = 234 VPRT = 1449 ZNP = False Q_POP = 4	
+	
+62,000		 K1			VSP = 10	
++ 63	K1		
+	
+T = 63 VT = 50 Q_LOST = 234 VPRT = 1499 ZNP = False Q_POP = 4	
+	
+63,000		 K1			VSP = 9	
++ 64	K1		
+	
+T = 64 VT = 41 Q_LOST = 234 VPRT = 1540 ZNP = False Q_POP = 4	
+	
+64,000		 K1			VSP = 10	
++ 65	K1		
+	
+T = 65 VT = 31 Q_LOST = 234 VPRT = 1571 ZNP = False Q_POP = 4	
+	
+65,000		 K1			VSP = 9	
++ 66	K1		
+	
+T = 66 VT = 22 Q_LOST = 234 VPRT = 1593 ZNP = False Q_POP = 4	
+	
+66,000		 K1			VSP = 6	
+Пополнение через 9 дней	
++ 75	K2		
+	
+T = 67 VT = 16 Q_LOST = 234 VPRT = 1609 ZNP = True Q_POP = 5	
+	
++ 67	K1		
+	
+T = 67 VT = 16 Q_LOST = 234 VPRT = 1609 ZNP = True Q_POP = 5	
+	
+67,000		 K1			VSP = 7	
++ 68	K1		
+	
+T = 68 VT = 9 Q_LOST = 234 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+68,000		 K1			VSP = 9	
++ 69	K1		
+	
+T = 69 VT = 0 Q_LOST = 234 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+69,000		 K1			VSP = 8	
++ 70	K1		
+	
+T = 70 VT = 0 Q_LOST = 242 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+70,000		 K1			VSP = 9	
++ 71	K1		
+	
+T = 71 VT = 0 Q_LOST = 251 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+71,000		 K1			VSP = 14	
++ 72	K1		
+	
+T = 72 VT = 0 Q_LOST = 265 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+72,000		 K1			VSP = 12	
++ 73	K1		
+	
+T = 73 VT = 0 Q_LOST = 277 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+73,000		 K1			VSP = 12	
++ 74	K1		
+	
+T = 74 VT = 0 Q_LOST = 289 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+74,000		 K1			VSP = 13	
++ 75	K1		
+	
+T = 75 VT = 0 Q_LOST = 302 VPRT = 1618 ZNP = True Q_POP = 5	
+	
+75,000		 K2			
+	
+T = 75 VT = 80 Q_LOST = 302 VPRT = 1618 ZNP = False Q_POP = 5	
+	
+75,000		 K1			VSP = 11	
++ 76	K1		
+	
+T = 76 VT = 69 Q_LOST = 302 VPRT = 1687 ZNP = False Q_POP = 5	
+	
+76,000		 K1			VSP = 6	
++ 77	K1		
+	
+T = 77 VT = 63 Q_LOST = 302 VPRT = 1750 ZNP = False Q_POP = 5	
+	
+77,000		 K1			VSP = 15	
++ 78	K1		
+	
+T = 78 VT = 48 Q_LOST = 302 VPRT = 1798 ZNP = False Q_POP = 5	
+	
+78,000		 K1			VSP = 17	
++ 79	K1		
+	
+T = 79 VT = 31 Q_LOST = 302 VPRT = 1829 ZNP = False Q_POP = 5	
+	
+79,000		 K1			VSP = 11	
++ 80	K1		
+	
+T = 80 VT = 20 Q_LOST = 302 VPRT = 1849 ZNP = False Q_POP = 5	
+	
+80,000		 K1			VSP = 8	
+Пополнение через 8 дней	
++ 88	K2		
+	
+T = 81 VT = 12 Q_LOST = 302 VPRT = 1861 ZNP = True Q_POP = 6	
+	
++ 81	K1		
+	
+T = 81 VT = 12 Q_LOST = 302 VPRT = 1861 ZNP = True Q_POP = 6	
+	
+81,000		 K1			VSP = 9	
++ 82	K1		
+	
+T = 82 VT = 3 Q_LOST = 302 VPRT = 1864 ZNP = True Q_POP = 6	
+	
+82,000		 K1			VSP = 11	
++ 83	K1		
+	
+T = 83 VT = 0 Q_LOST = 310 VPRT = 1864 ZNP = True Q_POP = 6	
+	
+83,000		 K1			VSP = 11	
++ 84	K1		
+	
+T = 84 VT = 0 Q_LOST = 321 VPRT = 1864 ZNP = True Q_POP = 6	
+	
+84,000		 K1			VSP = 9	
++ 85	K1		
+	
+T = 85 VT = 0 Q_LOST = 330 VPRT = 1864 ZNP = True Q_POP = 6	
+	
+85,000		 K1			VSP = 7	
++ 86	K1		
+	
+T = 86 VT = 0 Q_LOST = 337 VPRT = 1864 ZNP = True Q_POP = 6	
+	
+86,000		 K1			VSP = 8	
++ 87	K1		
+	
+T = 87 VT = 0 Q_LOST = 345 VPRT = 1864 ZNP = True Q_POP = 6	
+	
+87,000		 K1			VSP = 9	
++ 88	K1		
+	
+T = 88 VT = 0 Q_LOST = 354 VPRT = 1864 ZNP = True Q_POP = 6	
+	
+88,000		 K2			
+	
+T = 88 VT = 80 Q_LOST = 354 VPRT = 1864 ZNP = False Q_POP = 6	
+	
+88,000		 K1			VSP = 9	
++ 89	K1		
+	
+T = 89 VT = 71 Q_LOST = 354 VPRT = 1935 ZNP = False Q_POP = 6	
+	
+89,000		 K1			VSP = 9	
++ 90	K1		
+	
+T = 90 VT = 62 Q_LOST = 354 VPRT = 1997 ZNP = False Q_POP = 6	
+	
+90,000		 K1			VSP = 12	
++ 91	K1		
+	
+T = 91 VT = 50 Q_LOST = 354 VPRT = 2047 ZNP = False Q_POP = 6	
+	
+91,000		 K1			VSP = 8	
++ 92	K1		
+	
+T = 92 VT = 42 Q_LOST = 354 VPRT = 2089 ZNP = False Q_POP = 6	
+	
+92,000		 K1			VSP = 13	
++ 93	K1		
+	
+T = 93 VT = 29 Q_LOST = 354 VPRT = 2118 ZNP = False Q_POP = 6	
+	
+93,000		 K1			VSP = 6	
++ 94	K1		
+	
+T = 94 VT = 23 Q_LOST = 354 VPRT = 2141 ZNP = False Q_POP = 6	
+	
+94,000		 K1			VSP = 7	
+Пополнение через 8 дней	
++ 102	K2		
+	
+T = 95 VT = 16 Q_LOST = 354 VPRT = 2157 ZNP = True Q_POP = 7	
+	
++ 95	K1		
+	
+T = 95 VT = 16 Q_LOST = 354 VPRT = 2157 ZNP = True Q_POP = 7	
+	
+95,000		 K1			VSP = 10	
++ 96	K1		
+	
+T = 96 VT = 6 Q_LOST = 354 VPRT = 2163 ZNP = True Q_POP = 7	
+	
+96,000		 K1			VSP = 9	
++ 97	K1		
+	
+T = 97 VT = 0 Q_LOST = 357 VPRT = 2163 ZNP = True Q_POP = 7	
+	
+97,000		 K1			VSP = 8	
++ 98	K1		
+	
+T = 98 VT = 0 Q_LOST = 365 VPRT = 2163 ZNP = True Q_POP = 7	
+	
+98,000		 K1			VSP = 9	
++ 99	K1		
+	
+T = 99 VT = 0 Q_LOST = 374 VPRT = 2163 ZNP = True Q_POP = 7	
+	
+99,000		 K1			VSP = 5	
++ 100	K1		
+	
+T = 100 VT = 0 Q_LOST = 379 VPRT = 2163 ZNP = True Q_POP = 7	
+	
+100,000		 K1			VSP = 9	
++ 101	K1		
+	
+T = 101 VT = 0 Q_LOST = 388 VPRT = 2163 ZNP = True Q_POP = 7	
+	
+	
+==============================================================
+============Статистические результаты моделирования===========
+==============================================================
+	
+Время моделирования: 100,00
+Среднедневные затраты на подачу заявки на пополнение: 0,70
+Среднедневные потери от неудовлетворенного спроса: 3,88
+Среднедневные потери от пролеживания товара: 21,63
+Суммарные среднедневные потери: 26,21
